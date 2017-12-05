@@ -2,9 +2,63 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Магистерская</title>
+<title>Магистрская работа</title>
+<style>
+body {
+background-color: #fafafa;
+font-family: arial;
+}
+.photo {
+float: left;
+object-fit: cover;
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+.info::after {
+content: '';
+display: table;
+clear: both;
+}
+.list-label {
+font-weight: bold;
+}
+main {
+background-color: white;
+box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+0 3px 6px rgba(0, 0, 0, .23);
+margin: 16px;
+padding: 16px;
+}
+</style>
 </head>
 <body>
-<h1>Лучший магистрант всея ФМО</h1>  
+<main>
+<h1>Страница о магистрской работе Новицкой Е.Н.</h1>
+<section class="info">
+<h2>Автобиография</h2>
+<img src="./avatar.png" alt="Фотография Новицкой Е.Н." class="photo">
+<p>
+Новицкая Екатерина Николаевна
+Магистрант специальности международные отношения и внешней политики факультета международных отношений Белорусского государственного университета со знаниями двух иностранных языков. Сфера научных интересов - миротворческая деятельность ООН в Африке.  
+</p>
+/section>
+<section>
+<label class="list-label" for="workLinks">Ссылки на </label>
+<ul id="workLinks">
+<li>
+<a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+</li>
+<li>
+<a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+</li>
+<li>
+Научный руководитель <a href="http://fir.bsu.by/index.php/ru/faculty-in-menu/dekanat-in-menu/25-departments/ir-department/ir-staff/5-ir-selivanov.html" target="_blank">Селиванов Андрей Владимирович</a>
+</li>
+</ul>
+</section>
+</main>
 </body>
 </html>
